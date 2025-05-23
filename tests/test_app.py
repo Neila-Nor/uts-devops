@@ -1,1 +1,4 @@
-from app import tambah\n\ndef test_tambah():\n    assert tambah(2, 3) == 5
+from app import tambah
+
+def test_tambah():
+    assert tambah(2, 3) == 5
